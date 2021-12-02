@@ -86,4 +86,7 @@ function alphaNumValidate($string, &$errormsg, &$stringbool){
     		header("Location:index.php");
     	}
   	}
+  	else{
+  		header("Location:index.php");
+  	}
 ?>
